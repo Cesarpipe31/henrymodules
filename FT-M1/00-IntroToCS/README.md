@@ -1,48 +1,39 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+<img  src='./logo.png' height='70px'>
 
----
+## Introducción
 
-### Podes ver el contenido de todo el repositorio en formato web tipeando `npm install` y `npm start` e ingresando luego a <http://localhost:8080>
+# Modulo 0 - Prep
 
----
+* [00 - Primeros pasos, Intro-GIT-HTML-CSS](./00-Intro-GIT-HTML-CSS)
+* [01 - CSS](./01-CSS)
+* [02 - I - Introducción a Javascript: Variables, tipos de datos y funciones](./02-JS-I)
+* [03 - II- Flujos de control, operadores de comparación, bucles for](./03-JS-II)
+* [04 - III - continuación de bucles for y Arrays](./04-JS-III)
+* [05 - IV - Objetos](./05-JS-IV)
+* [06 - V - Clases y prototype](./06-JS-V)
+* [07 - VI - Callbacks](./07-JS-VI)
+* [08 - JS - Extra-Homeworks](./08-JS-Extra-Homeworks)
+* Henry Challenge => [Inscribite acá para rendir](https://airtable.com/shrjhdL2GfsusMZ05)
 
-# Módulo 1
+## Conceptos:
 
-#### Fundamentos de JavaScript
+* [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
 
-<div class="hide">
+## Homeworks
 
-- [Intro to Computer Science](./00-IntroToCS)
-- [Javascript Avanzado I](./01-JavaScriptAvanzado-I)
-- [Javascript Avanzado II](./02-JavaScriptAvanzado-II)
-- [Estructura de Datos I](./03-EstructuraDeDatos-I)
-- [Estructura de Datos II](./04-EstructuraDeDatos-II)
-- [Estructura de Datos III](./05-EstructuraDeDatos-III)
-- [Algoritmos I](./06-Algoritmos-I)
-- [Algoritmos II](./07-Algoritmos-II)
+__IMPORTANTE:__ Para ejecutar los tests de cada homework tenes que pararte en la carpeta donde clonaste tu repo (es decir la carpeta donde está este `README.md`) y ejecutar el siguiente comando:
 
-</div >
+`npm install`
 
-## Proceso de subida de homeworks
+Esto instalará todas las dependencias necesarias (lo tenés que hacer una sóla vez), una vez terminado y cada vez que quieras ver cuantos tests pasaste ejecutá:
 
-__IMPORTANTE:__ Luego de completar cada una de las homeworks del día deberán ejecutar los siguientes comandos para subir sus trabajos a sus repositorios (Deben estar posicionados sobre la carpeta del repositorio):
-
-```bash
-  git add . 
-  git commit -m "el mensaje que ustedes quieran"
-  git push
+```
+npm test {nombre del homework}.test.js
 ```
 
-### Extra
+Por ejemplo, para ejecutar los tests del homework 02, ejecutar: `npm test JSII.test.js`
+el del homework 01: `npm test JSI.test.js`
+y así.
 
-- [Patrones de JavaScript](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-- [Manejo de errores](./01-JavaScriptAvanzado-I/errores.md)
-- [JS orientado a Objetos](./01-JavaScriptAvanzado-I/OOP.md)
+> No todos los homeworks tiene tests, está detallado en la descripción de cada uno.
 
-### Links copados
-
-> [En esta página Dmitry Soshnikov](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/#this-value) explica muy a fondo varios conceptos del lenguaje, casi a nivel de la especificación técnica.
-
-- __Streams y pipes__: [substack](https://github.com/substack/stream-handbook)
-- [__Event loop__](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [__Inheritance Patterns__](http://davidshariff.com/blog/javascript-inheritance-patterns/#first-article)
